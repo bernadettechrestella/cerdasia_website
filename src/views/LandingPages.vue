@@ -2,25 +2,32 @@
   <v-app>
     <Header />
     <v-main>
-      <v-card flat class="text-center">
-          <p class="font-weight-bold text-h3">Lorem Ipsum</p>
-          <p class="font-weight-bold text-h3">Dolor sit amet</p>
-      </v-card>
+      <div data-aos="fade-up"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+        <v-card flat class="text-center">
+            <p class="font-weight-bold text-h3">Lorem Ipsum</p>
+            <p class="font-weight-bold text-h3">Dolor sit amet</p>
+        </v-card> 
 
-      <v-card flat class="mx-auto text-center align-center">
-        <v-img
-          class="black--text align-start"
-          height="700px"
-          contain
-          src="../assets/stengahlingkaran.png"
-          >
-          <v-card-subtitle>
-          <p class="font-weight-reguler text-h7">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat</p>
-          <p class="font-weight-reguler text-h7">commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua</p>
-          </v-card-subtitle>
-          </v-img>
-      </v-card>
+        <v-card flat class="mx-auto text-center align-center">
+          <v-img
+            class="black--text align-start"
+            height="600px"
+            contain
+            src="../assets/stengahlingkaran.png"
+            >
+            <v-card-subtitle>
+            <p class="font-weight-reguler text-h7">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat</p>
+            <p class="font-weight-reguler text-h7">commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua</p>
+            </v-card-subtitle>
+            </v-img>
+        </v-card>
+      </div>
 
+    <div data-aos="fade-up"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
       <v-card flat class="pa-5 ma-5">
         <v-row align="center">
           <v-col cols="3">
@@ -44,7 +51,11 @@
           </v-col>
         </v-row>
       </v-card>
+    </div>
 
+    <div data-aos="fade-up"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
       <v-card flat class="pa-5 ma-5">
         <v-row>
           <v-col cols="3">
@@ -59,7 +70,7 @@
                 dark
                 fab
                 x-large
-                color= #EF6C00>
+                color= #9747FF>
                 mdi-arrow-top-right-bold-box
                 </v-icon>
               <p class="font-weight-bold">#####</p>
@@ -72,7 +83,7 @@
                 dark
                 fab
                 x-large
-                color= #EF6C00>
+                color= #9747FF>
                 mdi-arrow-top-right-bold-box
                 </v-icon>
               <p class="font-weight-bold">#####</p>
@@ -87,7 +98,7 @@
                 dark
                 fab
                 x-large
-                color= #EF6C00>
+                color= #9747FF>
                 mdi-arrow-top-right-bold-box
                 </v-icon>
               <p class="font-weight-bold">#####</p>
@@ -100,7 +111,7 @@
                 dark
                 fab
                 x-large
-                color= #EF6C00>
+                color= #9747FF>
                 mdi-arrow-top-right-bold-box
                 </v-icon>
               <p class="font-weight-bold">#####</p>
@@ -110,13 +121,17 @@
           </v-col>
         </v-row>
       </v-card>
+    </div>
 
+    <div data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
       <v-card flat class="pa-5 ma-5">
         <v-row align="center">
           <v-col>
             <v-img
-              max-height="500"
-              max-width="500"
+              max-height="650"
+              max-width="650"
               src="../assets/lingkaran.png"
               ></v-img>
           </v-col>
@@ -125,7 +140,7 @@
             <p class="font-weight-bold text-h3">Fitur</p>
             </v-row>
             <v-row justify="end" class="pr-5 mr-5">
-            <p class="font-weight-bold orange--text text-h3">Unggulan</p>
+            <p class="font-weight-bold purple--text text-h3">Unggulan</p>
             </v-row>
             <v-row justify="end" class="pr-5 mr-5">
             <p class="font-weight-bold text-h3">Fitur 1</p>
@@ -138,18 +153,21 @@
             </v-row>
             <v-row justify="end" class="pr-5 mr-1">
             <v-btn
-              color= #EF6C00
+              color= #9747FF
               class="white--text"
               >Call To Action</v-btn>
             </v-row>
           </v-col>
         </v-row>
       </v-card>
+    </div>
 
+    <div data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
       <v-card flat class="pa-5 ma-5">
         <v-row align="center">
-          
-          <v-col cols="7">
+          <v-col cols="6">
             <v-row justify="start">
             <p class="font-weight-bold text-h3">Fitur 2</p>
             </v-row>
@@ -161,28 +179,32 @@
             </v-row>
             <v-row justify="start">
             <v-btn
-              color= #EF6C00
+              color= #9747FF
               class="white--text"
               >Call To Action</v-btn>
             </v-row>
-          </v-col>
+          </v-col>  
 
           <v-col>
             <v-img
-              max-height="500"
-              max-width="500"
+              max-height="650"
+              max-width="650"
               src="../assets/lingkaran.png"
               ></v-img>
           </v-col>
         </v-row>
       </v-card>
+    </div>
 
+    <div data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
       <v-card flat class="pa-5 ma-5">
         <v-row align="center">
           <v-col>
             <v-img
-              max-height="500"
-              max-width="500"
+              max-height="650"
+              max-width="650"
               src="../assets/lingkaran.png"
               ></v-img>
           </v-col>
@@ -198,18 +220,21 @@
             </v-row>
             <v-row justify="end" class="pr-5 mr-1">
             <v-btn
-              color= #EF6C00
+              color= #9747FF
               class="white--text"
               >Call To Action</v-btn>
             </v-row>
           </v-col>
         </v-row>
       </v-card>
+    </div>
 
+    <div data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
       <v-card flat class="pa-5 ma-5">
         <v-row align="center">
-          
-          <v-col cols="7">
+          <v-col cols="6">
             <v-row justify="start">
             <p class="font-weight-bold text-h3">Fitur 4</p>
             </v-row>
@@ -221,7 +246,7 @@
             </v-row>
             <v-row justify="start">
             <v-btn
-              color= #EF6C00
+              color= #9747FF
               class="white--text"
               >Call To Action</v-btn>
             </v-row>
@@ -229,13 +254,14 @@
 
           <v-col>
             <v-img
-              max-height="500"
-              max-width="500"
+              max-height="650"
+              max-width="650"
               src="../assets/lingkaran.png"
               ></v-img>
           </v-col>
         </v-row>
       </v-card>
+    </div>
 
     </v-main>
     <Footer />

@@ -9,15 +9,15 @@
         <v-spacer />
             <!-- <v-col> -->
                 <v-toolbar-items class="hidden-xs-only">
-                    <a text class="font-weight-regular red--text ma-2 pa-3">Tentang</a>
-                    <a text class="font-weight-regular red--text ma-2 pa-3">Fitur</a>
+                    <a text class="font-weight-regular purple--text ma-2 pa-3">Tentang</a>
+                    <a text class="font-weight-regular grey--text ma-2 pa-3">Fitur</a>
                 </v-toolbar-items>
             <!-- </v-col> -->
         <v-spacer />
             <!-- <v-col sm="1" md="1"> -->
                 <v-app-bar-nav-icon class="hidden-xs-only mr-2 pr-2">
                     <v-btn
-                        color= #EF6C00
+                        color= #9747FF
                         class="white--text"
                         rounded
                     >Get Started</v-btn>
