@@ -3,26 +3,24 @@
         <v-row justify="center" align="center"  class="ml-3 mr-6 pl-3 pr-6">
             <!-- <v-col> -->
                 <v-app-bar-title class="pt-3">
-                    <p text color="black" class="font-weight-bold text-h5">Cerdasia</p>
+                    <p text color="black" class="font-weight-bold text-h4">Cerdasia</p>
                 </v-app-bar-title>
             <!-- </v-col> -->
         <v-spacer />
-            <!-- <v-col> -->
-                <v-toolbar-items class="hidden-xs-only">
-                    <a text class="font-weight-regular purple--text ma-2 pa-3">Tentang</a>
-                    <a text class="font-weight-regular grey--text ma-2 pa-3">Fitur</a>
-                </v-toolbar-items>
-            <!-- </v-col> -->
-        <v-spacer />
-            <!-- <v-col sm="1" md="1"> -->
-                <v-app-bar-nav-icon class="hidden-xs-only mr-2 pr-2">
-                    <v-btn
-                        color= #9747FF
-                        class="white--text"
-                        rounded
-                    >Get Started</v-btn>
-                </v-app-bar-nav-icon>
-            <!-- </v-col> -->
+
+            <v-app-bar-title class="hidden-xs-only">
+                <a text class="font-weight-regular purple--text ma-2 pa-3">Home</a>
+                <a text class="font-weight-regular grey--text ma-2 pa-3">About Us</a>
+                <a text class="font-weight-regular grey--text ma-2 pa-3">Membership</a>
+                <a text class="font-weight-regular grey--text ma-2 pa-3">Blog</a>
+                <a text class="font-weight-regular grey--text ma-2 pa-3">Contact Us</a>
+                <v-btn
+                    color= #9747FF
+                    class="white--text"
+                    rounded
+                    >Get Started
+                </v-btn>
+            </v-app-bar-title>
         </v-row>
 
         <div class="hidden-sm-and-up">
