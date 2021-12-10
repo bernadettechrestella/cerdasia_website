@@ -9,13 +9,13 @@
         <v-spacer />
 
             <v-app-bar-title class="hidden-xs-only">
-                <a text class="font-weight-regular purple--text ma-2 pa-3">Home</a>
+                <a text class="font-weight-regular orange--text ma-2 pa-3">Home</a>
                 <a text class="font-weight-regular grey--text ma-2 pa-3">About Us</a>
                 <a text class="font-weight-regular grey--text ma-2 pa-3">Membership</a>
                 <a text class="font-weight-regular grey--text ma-2 pa-3">Blog</a>
                 <a text class="font-weight-regular grey--text ma-2 pa-3">Contact Us</a>
                 <v-btn
-                    color= #9747FF
+                    color= #FF5E3C
                     class="white--text"
                     rounded
                     >Get Started
@@ -45,8 +45,21 @@
 </template>
 
 <script>
-
 export default {
   name: 'Header',
+  methods: {
+    redirectAboutUs(){
+      this.$router.push('/AboutUs')
+    },
+    redirectContactUs(){
+      this.$router.push('/ContactUs')
+    },
+    redirectLandingPages(){
+      this.$router.push('/LandingPages')
+    },
+    redirectMembership(){
+      this.$router.push('/Membership')
+    },
+}
 }
 </script>

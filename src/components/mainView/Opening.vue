@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <div data-aos="fade-up"
-            data-aos-offset="700"
+            data-aos-offset="600"
             data-aos-easing="ease-in-sine">
             <v-card flat class="text-center pb-5">
                 <v-row class="align-center">

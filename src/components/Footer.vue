@@ -4,7 +4,7 @@
             <v-img
                 class="white--text align-end"
                 height="250px"
-                src="../assets/footer.png"
+                src="../assets/footer.svg"
                 >
             <v-row class="mt-2">
                 <v-col cols="6">

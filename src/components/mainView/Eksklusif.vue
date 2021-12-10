@@ -1,13 +1,17 @@
 <template>
-    <div>
+    <div data-aos="fade-up"
+            data-aos-offset="600"
+            data-aos-easing="ease-in-sine">
         <v-card flat color="FF5E3C">
             <v-img
-                height="700"
+                height="100%"
+                :min-height="initHeight"
+                
                 src="~@/assets/gradasi.svg">
                 <v-container>
                     <v-row class="pt-5 mt-5">
                         <v-col cols="6">
-                            <p class="font-weight-bold text-h3 pb-5">Eksklusif di Cerdasia</p>
+                            <p class="font-weight-bold text-h3 pb-5 pt-12 mt-12">Eksklusif di Cerdasia</p>
                             <v-row align="center">
                                 <v-col cols="2">
                                     <v-avatar color="red">
@@ -53,7 +57,7 @@
                             <v-img
                                 src="~@/assets/phone.svg"
                                 width="100%"
-                                height="70%"
+                                :min-height="initHeight"
                                 contain>
                             </v-img>
                         </v-col>
@@ -69,7 +73,7 @@ export default {
     name: 'Eksklusif',
     data () {
         return {
-            initHeight: (window.innerHeight)/10
+            initHeight: window.innerHeight,
         }
     }
 }

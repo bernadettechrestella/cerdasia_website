@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <div data-aos="fade-left"
-            data-aos-offset="700"
+            data-aos-offset="600"
             data-aos-easing="ease-in-sine">
             <v-card flat class="text-end pt-5 pb-5 mt-5 mb-5">
                 <v-row class="pb-5 mb-5 justify-center">
@@ -26,7 +26,7 @@
                         </v-row>
                         <v-row class="justify-end">
                             <v-btn
-                                color= #9747FF
+                                color= #FF5E3C
                                 class="white--text"
                                 >Call To Action
                             </v-btn>
@@ -37,7 +37,7 @@
         </div>
 
         <div data-aos="fade-right"
-                data-aos-offset="700"
+                data-aos-offset="600"
                 data-aos-easing="ease-in-sine">
             <v-card flat class="pa-5 ma-5">
                 <v-row align="center">
@@ -50,7 +50,7 @@
                         </v-row>
                         <v-row>
                             <v-btn
-                                color= #9747FF
+                                color= #FF5E3C
                                 class="white--text"
                                 >Call To Action
                             </v-btn>
@@ -70,7 +70,7 @@
         </div>
 
         <div data-aos="fade-left"
-            data-aos-offset="700"
+            data-aos-offset="600"
             data-aos-easing="ease-in-sine">
             <v-card flat class="pa-5 ma-5 text-end">
                 <v-row align="center">
@@ -91,7 +91,7 @@
                         </v-row>
                         <v-row justify="end">
                             <v-btn
-                                color= #9747FF
+                                color= #FF5E3C
                                 class="white--text"
                                 >Call To Action
                             </v-btn>
