@@ -11,11 +11,6 @@
                     <v-tab link to="Membership">Membership</v-tab>
                     <v-tab link to="Blog">Blog</v-tab>
                     <v-tab link to="ContactUs">Contact Us</v-tab>
-                    <!-- <v-tab @click="redirectHome()">Home</v-tab>
-                    <v-tab @click="redirectAboutUs()">About Us</v-tab>
-                    <v-tab @click="redirectMembership()">Membership</v-tab>
-                    <v-tab @click="redirectBlog()">Blog</v-tab>
-                    <v-tab @click="redirectContactUs()">Contact Us</v-tab> -->
                 </v-tabs>
 
                 <v-btn

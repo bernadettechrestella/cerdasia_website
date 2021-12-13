@@ -3,7 +3,7 @@
         <p class="font-weight-bold text-h3 text-center pt-5 pb-5">Membership</p>
         <v-row justify="center">
             <v-col class="pt-10 mt-10">
-            <v-card class="pa-3">
+            <v-card class="pa-3" :elevation="hover ? 16:2" :class="{'on-hover': hover}">
                 <p style="color:#FF5E3C">Free Member</p>
                 <v-row class="pl-2">
                     <p class="text-h3">Free</p>
@@ -82,7 +82,7 @@
             </v-col>
 
             <v-col>
-            <v-card class="pa-3">
+            <v-card class="pa-3" elevation="12">
                 <v-row class="pl-3 pt-3 pr-3">
                     <p style="color:#FF5E3C">Premium Member</p>
                     <v-spacer />
