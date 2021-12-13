@@ -1,6 +1,6 @@
 <template>
     <v-app-bar app color="white" flat>
-        <v-row justify="center" align="center"  class="ml-3 mr-6 pl-3 pr-6">
+        <!-- <v-row justify="center" align="center"  class="ml-3 mr-6 pl-3 pr-6"> -->
             <!-- <v-col> -->
                 <v-app-bar-title class="pt-3">
                     <p text color="black" class="font-weight-bold text-h4">Cerdasia</p>
@@ -21,7 +21,7 @@
                     >Get Started
                 </v-btn>
             </v-app-bar-title>
-        </v-row>
+        <!-- </v-row> -->
 
         <!-- <div class="hidden-sm-and-up">
             <v-menu offset-y class="pa-1">
