@@ -1,46 +1,27 @@
 <template>
     <v-app-bar app color="white" flat>
-        <!-- <v-row justify="center" align="center"  class="ml-3 mr-6 pl-3 pr-6"> -->
-            <!-- <v-col> -->
-                <v-app-bar-title class="pt-3">
-                    <p text color="black" class="font-weight-bold text-h4">Cerdasia</p>
-                </v-app-bar-title>
-            <!-- </v-col> -->
+        <v-app-bar-title class="pt-3">
+            <p text color="black" class="font-weight-bold text-h4">Cerdasia</p>
+        </v-app-bar-title>
         <v-spacer />
+                
+                <v-tabs
+                    color="#FF5E3C"
+                    right
+                    >
+                    <v-tab @click="redirectHome()">Home</v-tab>
+                    <v-tab @click="redirectAboutUs()">About Us</v-tab>
+                    <v-tab @click="redirectMembership()">Membership</v-tab>
+                    <v-tab @click="redirectBlog()">Blog</v-tab>
+                    <v-tab @click="redirectContactUs()">Contact Us</v-tab>
+                </v-tabs>
 
-            <v-app-bar-title class="hidden-xs-only">
-                <a text class="font-weight-regular orange--text ma-2 pa-3" @click="redirectHome()">Home</a>
-                <a text class="font-weight-regular grey--text ma-2 pa-3" @click="redirectAboutUs()">About Us</a>
-                <a text class="font-weight-regular grey--text ma-2 pa-3" @click="redirectMembership()">Membership</a>
-                <a text class="font-weight-regular grey--text ma-2 pa-3" @click="redirectBlog()">Blog</a>
-                <a text class="font-weight-regular grey--text ma-2 pa-3" @click="redirectContactUs()">Contact Us</a>
                 <v-btn
                     color= #FF5E3C
                     class="white--text"
                     rounded
                     >Get Started
                 </v-btn>
-            </v-app-bar-title>
-        <!-- </v-row> -->
-
-        <!-- <div class="hidden-sm-and-up">
-            <v-menu offset-y class="pa-1">
-                <template v-slot:activator='{ on }'>
-                    <v-app-bar-nav-icon v-on="on"></v-app-bar-nav-icon>
-                </template>
-                <v-list class="responsiveMenu">
-                    <v-list-item>
-                        <a text class="font-weight-regular red--text ma-2 pa-3">Tentang</a>
-                    </v-list-item>
-                    <v-list-item>
-                        <a text class="font-weight-regular red--text ma-2 pa-3">Fitur</a>
-                    </v-list-item>
-                    <v-list-item>
-                        <a text class="font-weight-regular red--text ma-2 pa-3">Get Started</a>
-                    </v-list-item>
-                </v-list>
-            </v-menu>
-        </div> -->
     </v-app-bar>
 </template>
 
@@ -50,21 +31,27 @@ export default {
   methods: {
     redirectHome(){
       this.$router.push('/')
+      window.scrollTo(0,0)
     },
     redirectAboutUs(){
       this.$router.push('/aboutUs')
+      window.scrollTo(0,0)
     },
     redirectContactUs(){
       this.$router.push('/contactUs')
+      window.scrollTo(0,0)
     },
     redirectLandingPages(){
       this.$router.push('/landingPages')
+      window.scrollTo(0,0)
     },
     redirectMembership(){
       this.$router.push('/membership')
+      window.scrollTo(0,0)
     },
     redirectBlog(){
       this.$router.push('/blog')
+      window.scrollTo(0,0)
     },
 }
 }
