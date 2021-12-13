@@ -6,11 +6,11 @@
                     color="#FF5E3C"
                     right
                     >
-                    <v-tab link to="LandingPage">Home</v-tab>
-                    <v-tab link to="AboutUs">About Us</v-tab>
-                    <v-tab link to="Membership">Membership</v-tab>
-                    <v-tab link to="Blog">Blog</v-tab>
-                    <v-tab link to="ContactUs">Contact Us</v-tab>
+                    <v-tab link @click="redirectHome()">Home</v-tab>
+                    <v-tab link @click="redirectAboutUs()">About Us</v-tab>
+                    <v-tab link @click="redirectMembership()">Membership</v-tab>
+                    <v-tab link @click="redirectBlog()">Blog</v-tab>
+                    <v-tab link @click="redirectContactUs()">Contact Us</v-tab>
                 </v-tabs>
 
                 <v-btn
