@@ -1,20 +1,20 @@
 <template>
   <v-app>
-    <Header />
+    <!-- <Header /> -->
     <BlogView />
     <Footer />
   </v-app>
 </template>
 
 <script>
-import Header from '@/components/Header.vue'
+// import Header from '@/components/Header.vue'
 import BlogView from '@/components/blog/BlogView.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Blog',
   components: {
-    Header,
+    // Header,
     BlogView,
     Footer
   }

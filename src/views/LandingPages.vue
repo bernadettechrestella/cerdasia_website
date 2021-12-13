@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <Header />
+    <!-- <Header /> -->
       <Opening />
       <MengapaCerdasia />
       <FiturUnggulan />
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Header from '@/components/Header.vue'
+// import Header from '@/components/Header.vue'
 import Opening from '@/components/mainView/Opening.vue'
 import MengapaCerdasia from '@/components/mainView/MengapaCerdasia.vue'
 import FiturUnggulan from '@/components/mainView/FiturUnggulan.vue'
@@ -22,7 +22,7 @@ import Footer from '@/components/Footer.vue'
 export default {
   name: 'LandingPages',
   components: {
-    Header,
+    // Header,
     Opening,
     MengapaCerdasia,
     FiturUnggulan,
