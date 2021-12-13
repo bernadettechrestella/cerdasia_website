@@ -1,0 +1,49 @@
+<template>
+    <v-container>
+        <p class="text-h3 font-weight-bold text-center pt-5 pb-5">Blog</p>
+        <v-row class="justify-center pt-5 pb-5">
+            <v-card>
+                <v-img
+                    height="250"
+                    width="500"
+                    src="~@/assets/gambarABC.svg"></v-img>
+                <v-card-title>Cara Mengajar Anak SD</v-card-title>
+                <v-card-subtitle>Edukasi</v-card-subtitle>
+            </v-card>
+            &emsp;
+            <v-card>
+                <v-img
+                    height="250"
+                    width="500"
+                    src="~@/assets/gambarABC.svg"></v-img>
+                <v-card-title>Cara Mengajar Anak SD</v-card-title>
+                <v-card-subtitle>Edukasi</v-card-subtitle>
+            </v-card>
+        </v-row>
+        <v-row class="justify-center pt-5 pb-5">
+            <v-card>
+                <v-img
+                    height="250"
+                    width="500"
+                    src="~@/assets/gambarABC.svg"></v-img>
+                <v-card-title>Cara Mengajar Anak SD</v-card-title>
+                <v-card-subtitle>Edukasi</v-card-subtitle>
+            </v-card>
+            &emsp;
+            <v-card>
+                <v-img
+                    height="250"
+                    width="500"
+                    src="~@/assets/gambarABC.svg"></v-img>
+                <v-card-title>Cara Mengajar Anak SD</v-card-title>
+                <v-card-subtitle>Edukasi</v-card-subtitle>
+            </v-card>
+        </v-row>
+    </v-container>
+</template>
+
+<script>
+export default {
+    name: 'BlogView'
+}
+</script>

@@ -25,6 +25,11 @@ const routes = [
     name: 'Membership',
     component: () => import('../views/Membership.vue')
   },
+  {
+    path: '/blog',
+    name: 'Blog',
+    component: () => import('../views/Blog.vue')
+  },
 ]
 
 const router = new VueRouter({

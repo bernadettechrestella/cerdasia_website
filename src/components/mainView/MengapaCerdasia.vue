@@ -10,24 +10,26 @@
 
                 <v-row>
                     <v-col>
-                        <v-icon 
-                            dark
-                            fab
-                            x-large
-                            color= #FECB32>
-                            mdi-arrow-top-right-bold-box
-                        </v-icon>
+                        <v-row justify="center pb-5 pt-5">
+                            <v-img 
+                                height="40"
+                                width="40"
+                                contain
+                                src="~@/assets/iconAnak.svg"
+                            ></v-img>
+                        </v-row>
                         <p class="font-weight-bold text-h6">Berfokus Pada Anak</p>
                         <p>Kurikulum disesuaikan dengan tahap perkembangan Anak</p>
                     </v-col>
                     <v-col>
-                        <v-icon 
-                            dark
-                            fab
-                            x-large
-                            color= #FECB32>
-                            mdi-arrow-top-right-bold-box
-                        </v-icon>
+                        <v-row justify="center pb-5 pt-5">
+                            <v-img 
+                                height="40"
+                                width="40"
+                                contain
+                                src="~@/assets/iconLampu.svg"
+                            ></v-img>
+                        </v-row>
                         <p class="font-weight-bold text-h6">Belajar Serasa Bermain</p>
                         <p>Terdapat visual dan worksheet yang asik dan menyenangkan untuk anak-anak</p>
                     </v-col>
@@ -35,24 +37,26 @@
 
                 <v-row>
                     <v-col>
-                        <v-icon 
-                            dark
-                            fab
-                            x-large
-                            color= #FECB32>
-                            mdi-arrow-top-right-bold-box
-                        </v-icon>
+                        <v-row justify="center pb-5 pt-5">
+                            <v-img 
+                                height="40"
+                                width="40"
+                                contain
+                                src="~@/assets/iconBuku.svg"
+                            ></v-img>
+                        </v-row>
                         <p class="font-weight-bold text-h6">Akselerasi Kemampuan Literasi</p>
                         <p>Buku yang interaktif dan meningkatkan minat baca Anak</p>
                     </v-col>
                     <v-col>
-                        <v-icon 
-                            dark
-                            fab
-                            x-large
-                            color= #FECB32>
-                            mdi-arrow-top-right-bold-box
-                        </v-icon>
+                        <v-row justify="center pb-5 pt-5">
+                            <v-img 
+                                height="40"
+                                width="40"
+                                contain
+                                src="~@/assets/iconHati.svg"
+                            ></v-img>
+                        </v-row>
                         <p class="font-weight-bold text-h6">Mempererat Hubungan Orang Tua dan Anak</p>
                         <p>Terdapat fitur dashboard yang membantu orangtua dalam mendampingi perkembangan Anak</p>
                     </v-col>

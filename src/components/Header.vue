@@ -9,11 +9,11 @@
         <v-spacer />
 
             <v-app-bar-title class="hidden-xs-only">
-                <a text class="font-weight-regular orange--text ma-2 pa-3">Home</a>
-                <a text class="font-weight-regular grey--text ma-2 pa-3">About Us</a>
-                <a text class="font-weight-regular grey--text ma-2 pa-3">Membership</a>
-                <a text class="font-weight-regular grey--text ma-2 pa-3">Blog</a>
-                <a text class="font-weight-regular grey--text ma-2 pa-3">Contact Us</a>
+                <a text class="font-weight-regular orange--text ma-2 pa-3" @click="redirectHome()">Home</a>
+                <a text class="font-weight-regular grey--text ma-2 pa-3" @click="redirectAboutUs()">About Us</a>
+                <a text class="font-weight-regular grey--text ma-2 pa-3" @click="redirectMembership()">Membership</a>
+                <a text class="font-weight-regular grey--text ma-2 pa-3" @click="redirectBlog()">Blog</a>
+                <a text class="font-weight-regular grey--text ma-2 pa-3" @click="redirectContactUs()">Contact Us</a>
                 <v-btn
                     color= #FF5E3C
                     class="white--text"
@@ -23,7 +23,7 @@
             </v-app-bar-title>
         </v-row>
 
-        <div class="hidden-sm-and-up">
+        <!-- <div class="hidden-sm-and-up">
             <v-menu offset-y class="pa-1">
                 <template v-slot:activator='{ on }'>
                     <v-app-bar-nav-icon v-on="on"></v-app-bar-nav-icon>
@@ -40,7 +40,7 @@
                     </v-list-item>
                 </v-list>
             </v-menu>
-        </div>
+        </div> -->
     </v-app-bar>
 </template>
 
@@ -48,17 +48,23 @@
 export default {
   name: 'Header',
   methods: {
+    redirectHome(){
+      this.$router.push('/')
+    },
     redirectAboutUs(){
-      this.$router.push('/AboutUs')
+      this.$router.push('/aboutUs')
     },
     redirectContactUs(){
-      this.$router.push('/ContactUs')
+      this.$router.push('/contactUs')
     },
     redirectLandingPages(){
-      this.$router.push('/LandingPages')
+      this.$router.push('/landingPages')
     },
     redirectMembership(){
-      this.$router.push('/Membership')
+      this.$router.push('/membership')
+    },
+    redirectBlog(){
+      this.$router.push('/blog')
     },
 }
 }
