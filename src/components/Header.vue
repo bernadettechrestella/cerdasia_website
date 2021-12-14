@@ -1,24 +1,29 @@
 <template>
     <v-app-bar app color="white" flat>
-        <p text color="black" class="font-weight-bold text-h4">Cerdasia</p>
-        <!-- <v-spacer></v-spacer> -->
-                <v-tabs
-                    color="#FF5E3C"
-                    right
-                    >
-                    <v-tab link @click="redirectHome()">Home</v-tab>
-                    <v-tab link @click="redirectAboutUs()">About Us</v-tab>
-                    <v-tab link @click="redirectMembership()">Membership</v-tab>
-                    <v-tab link @click="redirectBlog()">Blog</v-tab>
-                    <v-tab link @click="redirectContactUs()">Contact Us</v-tab>
-                </v-tabs>
+        <p text color="black" class="font-weight-bold text-h4 pt-3">Cerdasia</p>
 
-                <v-btn
-                    color= #FF5E3C
-                    class="white--text"
-                    rounded
-                    >Get Started
-                </v-btn>
+          <v-tabs
+            v-model="tab"
+            color="#FF5E3C"
+            right
+          >
+            <v-tabs-slider color="white"></v-tabs-slider>
+              
+              <v-tab link @click="redirectHome()">Home</v-tab>
+              <v-tab link @click="redirectAboutUs()">About Us</v-tab>
+              <v-tab link @click="redirectMembership()">Membership</v-tab>
+              <v-tab link @click="redirectBlog()">Blog</v-tab>
+              <v-tab link @click="redirectContactUs()">Contact Us</v-tab>
+            
+          </v-tabs>
+            
+            <v-btn
+              color= #FF5E3C
+              class="white--text"
+              rounded
+              >Get Started
+            </v-btn>
+                
     </v-app-bar>
 </template>
 
