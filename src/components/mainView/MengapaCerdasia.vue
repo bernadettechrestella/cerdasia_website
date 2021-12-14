@@ -1,8 +1,8 @@
 <template>
     <v-container>
-        <div data-aos="fade-up"
+        <!-- <div data-aos="fade-up"
             data-aos-offset="600"
-            data-aos-easing="ease-in-sine">
+            data-aos-easing="ease-in-sine"> -->
             <v-card flat class="text-center pt-5 pb-5 mt-5 mb-5">
                 <v-row class="justify-center pb-5 mb-5">
                     <p class="font-weight-bold text-h3">Mengapa Harus Cerdasia?</p>
@@ -62,7 +62,7 @@
                     </v-col>
                 </v-row>
             </v-card>
-        </div>
+        <!-- </div> -->
     </v-container>
 </template>
 

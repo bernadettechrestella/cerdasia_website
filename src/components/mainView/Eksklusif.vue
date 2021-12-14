@@ -1,7 +1,7 @@
 <template>
-    <div data-aos="fade-up"
+    <!-- <div data-aos="fade-up"
             data-aos-offset="600"
-            data-aos-easing="ease-in-sine">
+            data-aos-easing="ease-in-sine"> -->
         <v-card flat color="FF5E3C">
             <v-img
                 height="100%"
@@ -65,7 +65,7 @@
                 </v-container>
             </v-img>
         </v-card>
-    </div>
+    <!-- </div> -->
 </template>
 
 <script>

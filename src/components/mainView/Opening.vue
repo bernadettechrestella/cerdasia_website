@@ -1,8 +1,8 @@
 <template>
     <v-container>
-        <div data-aos="fade-up"
+        <!-- <div data-aos="fade-up"
             data-aos-offset="600"
-            data-aos-easing="ease-in-sine">
+            data-aos-easing="ease-in-sine"> -->
             <v-card flat class="text-center pb-5">
                 <v-row class="align-center">
                 <v-col cols="5">
@@ -11,7 +11,8 @@
                     <v-btn
                         rounded
                         color="#FF5E3C"
-                        class="white--text">
+                        class="white--text text-h6"
+                        height="50">
                         Download Aplikasi
                     </v-btn>
                 </v-col>
@@ -25,7 +26,7 @@
                 </v-col>
                 </v-row>
             </v-card>
-        </div>
+        <!-- </div> -->
     </v-container>
 </template>
 

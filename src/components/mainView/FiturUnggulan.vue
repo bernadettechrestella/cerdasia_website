@@ -1,8 +1,8 @@
 <template>
     <v-container>
-        <div data-aos="fade-left"
+        <!-- <div data-aos="fade-left"
             data-aos-offset="600"
-            data-aos-easing="ease-in-sine">
+            data-aos-easing="ease-in-sine"> -->
             <v-card flat class="text-end pt-5 pb-5 mt-5 mb-5">
                 <v-row class="pb-5 mb-5 justify-center">
                     <p class="font-weight-bold text-h3">Fitur Unggulan</p>
@@ -34,11 +34,11 @@
                     </v-col>
                 </v-row>
             </v-card>
-        </div>
+        <!-- </div> -->
 
-        <div data-aos="fade-right"
+        <!-- <div data-aos="fade-right"
                 data-aos-offset="600"
-                data-aos-easing="ease-in-sine">
+                data-aos-easing="ease-in-sine"> -->
             <v-card flat class="pa-5 ma-5">
                 <v-row align="center">
                     <v-col cols="6">
@@ -67,11 +67,11 @@
                 </v-col>
                 </v-row>
             </v-card>
-        </div>
+        <!-- </div> -->
 
-        <div data-aos="fade-left"
+        <!-- <div data-aos="fade-left"
             data-aos-offset="600"
-            data-aos-easing="ease-in-sine">
+            data-aos-easing="ease-in-sine"> -->
             <v-card flat class="pa-5 ma-5 text-end">
                 <v-row align="center">
                     <v-col cols="6">
@@ -99,7 +99,7 @@
                     </v-col>
                 </v-row>
             </v-card>
-        </div>
+        <!-- </div> -->
     </v-container>
 </template>
 

@@ -1,9 +1,9 @@
 <template>
     <v-container>
         <p class="font-weight-bold text-h3 text-center pt-5 pb-5">Membership</p>
-        <v-row justify="center">
+        <v-row justify="center" class="pb-10">
             <v-col class="pt-10 mt-10">
-            <v-card class="pa-3" :elevation="hover ? 16:2" :class="{'on-hover': hover}">
+            <v-card class="pa-7" :class="`rounded${'-xl'}`" elevation="12">
                 <p style="color:#FF5E3C">Free Member</p>
                 <v-row class="pl-2">
                     <p class="text-h3">Free</p>
@@ -82,7 +82,7 @@
             </v-col>
 
             <v-col>
-            <v-card class="pa-3" elevation="12">
+            <v-card class="pa-7" elevation="12" :class="`rounded${'-xl'}`">
                 <v-row class="pl-3 pt-3 pr-3">
                     <p style="color:#FF5E3C">Premium Member</p>
                     <v-spacer />
@@ -171,7 +171,7 @@
             </v-col>
 
             <v-col class="pt-10 mt-10">
-            <v-card class="pa-3">
+            <v-card class="pa-7" :class="`rounded${'-xl'}`" elevation="12">
                 <p style="color:#FF5E3C">Free Member + Pembelian Buku</p>
                 <v-row class="pl-2">
                     <p class="text-h3">Rp30.000</p>
@@ -247,9 +247,9 @@
 
         <div v-if="viewMoreActivated">
         <p class="font-weight-bold text-h3 text-center pt-10 pb-5">Paket Premium</p>
-        <v-row>
+        <v-row class="pb-10">
             <v-col>
-                <v-card class="pa-5">
+                <v-card class="pa-5" :class="`rounded${'-xl'}`" elevation="5">
                     <p style="color:#FF5E3C">Per 6 Bulan</p>
                     <v-row class="pl-2 pb-2">
                     <p class="text-h3">Rp20.000</p>
@@ -268,7 +268,7 @@
             </v-col>
 
             <v-col>
-                <v-card class="pa-5">
+                <v-card class="pa-5" :class="`rounded${'-xl'}`" elevation="5">
                     <p style="color:#FF5E3C">Per 6 Bulan</p>
                     <v-row class="pl-2 pb-2">
                     <p class="text-h3">Rp25.000</p>
@@ -287,7 +287,7 @@
             </v-col>
 
             <v-col>
-                <v-card class="pa-5">
+                <v-card class="pa-5" :class="`rounded${'-xl'}`" elevation="5">
                     <v-row class="pt-3 pl-3 pr-3">
                         <p style="color:#FF5E3C">Tahunan</p>
                         <v-spacer />

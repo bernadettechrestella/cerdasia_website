@@ -1,7 +1,7 @@
 <template>
-    <div data-aos="fade-up"
+    <!-- <div data-aos="fade-up"
             data-aos-offset="600"
-            data-aos-easing="ease-in-sine">
+            data-aos-easing="ease-in-sine"> -->
     <v-container>
         <div class="pt-5 mt-5 pb-5 mb-5">
             <p class="font-weight-bold text-h3 pb-5">Testimoni</p>
@@ -50,7 +50,7 @@
         </div>
         <!-- </v-card> -->
     </v-container>
-    </div>
+    <!-- </div> -->
 </template>
 
 <script>
