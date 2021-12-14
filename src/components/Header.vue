@@ -1,7 +1,7 @@
 <template>
     <v-app-bar app color="white" flat>
         <p text color="black" class="font-weight-bold text-h4">Cerdasia</p>
-        <v-spacer></v-spacer>
+        <!-- <v-spacer></v-spacer> -->
                 <v-tabs
                     color="#FF5E3C"
                     right
