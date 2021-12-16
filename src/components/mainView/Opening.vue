@@ -1,8 +1,5 @@
 <template>
     <v-container>
-        <!-- <div data-aos="fade-up"
-            data-aos-offset="600"
-            data-aos-easing="ease-in-sine"> -->
             <v-card flat class="text-center pb-5">
                 <v-row class="align-center">
                 <v-col cols="5">
@@ -26,7 +23,6 @@
                 </v-col>
                 </v-row>
             </v-card>
-        <!-- </div> -->
     </v-container>
 </template>
 
@@ -35,8 +31,9 @@ export default {
     name : 'Opening',
     data () {
         return {
-            initHeight: (window.innerHeight)/4
+            initHeight: (window.innerHeight)/4,
         }
-    }
+    },
+    
 }
 </script>
