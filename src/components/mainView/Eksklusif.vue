@@ -61,6 +61,7 @@
                     </v-row>
                 </v-container>
             </v-img>
+            
             <v-img
             v-else
                 height="100%"
@@ -69,7 +70,7 @@
                 <v-container>
                     <v-row>
                         <v-col sm="4">
-                            <p class="font-weight-bold text-h4 pb-5">Eksklusif di Cerdasia</p>
+                            <p class="font-weight-bold text-h4 pt-5">Eksklusif di Cerdasia</p>
                             <v-row align="center">
                                 <v-col cols="2">
                                     <v-avatar color="red">

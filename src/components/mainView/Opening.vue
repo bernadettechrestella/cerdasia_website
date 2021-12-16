@@ -27,7 +27,7 @@
                         rounded
                         color="#FF5E3C"
                         class="white--text text-h8"
-                        height="20">
+                        height="40">
                         Download Aplikasi
                     </v-btn>
                 </v-col>
