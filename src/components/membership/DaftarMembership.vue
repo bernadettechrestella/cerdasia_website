@@ -250,7 +250,7 @@
             <p class="font-weight-bold text-h3 text-center pt-10 pb-5">Paket Premium</p>
             <v-row class="pb-10">
                 <v-col>
-                    <v-card class="pa-5" :class="`rounded${'-xl'}`" elevation="5">
+                    <v-card class="pa-5" :class="`rounded${'-xl'}`" elevation="5" height="200">
                         <p style="color:#FF5E3C">Per 6 Bulan</p>
                         <v-row class="pl-2 pb-2">
                         <p class="text-h3">Rp20.000</p>
@@ -269,7 +269,7 @@
                 </v-col>
 
                 <v-col>
-                    <v-card class="pa-5" :class="`rounded${'-xl'}`" elevation="5">
+                    <v-card class="pa-5" :class="`rounded${'-xl'}`" elevation="5" height="200">
                         <p style="color:#FF5E3C">Per 6 Bulan</p>
                         <v-row class="pl-2 pb-2">
                         <p class="text-h3">Rp25.000</p>
@@ -288,7 +288,7 @@
                 </v-col>
 
                 <v-col>
-                    <v-card class="pa-5" :class="`rounded${'-xl'}`" elevation="5">
+                    <v-card class="pa-5" :class="`rounded${'-xl'}`" elevation="5" height="200">
                         <v-row class="pt-3 pl-3 pr-3">
                             <p style="color:#FF5E3C">Tahunan</p>
                             <v-spacer />
