@@ -26,7 +26,7 @@
                     <v-card :class="`rounded${'-xl'}`" class="text-center pa-5" height="300">
                         <p class="text-h4 font-weight-bold">SDG 8</p>
                         <p>Decent Work & Economic Growth</p>
-                        <p>Berusaha menanamkan sedini mungkin kemampuan menganalisis informasi, daya berpikir kritis, dan kemerdekaan memiliki pendapat pada anak yang nantinya dapat berugna dalam dunia kerja</p>
+                        <p>Berusaha menanamkan sedini mungkin kemampuan menganalisis informasi, daya berpikir kritis, dan kemerdekaan memiliki pendapat pada anak yang nantinya dapat berguna dalam dunia kerja</p>
                     </v-card>
                 </v-col>
             </v-row>
