@@ -11,7 +11,7 @@
                         width="100%"
                         :min-height="initHeight"
                         contain
-                        src= "~@/assets/lingkaran.svg"
+                        src= "~@/assets/Fitur1Gajah.svg"
                         ></v-img>
                     </v-col>
                     <v-col cols="6">
@@ -50,12 +50,12 @@
                         </v-row>
                     </v-col>  
 
-                <v-col cols="6">
+                <v-col cols="6" class="pl-5">
                     <v-img
                         width="100%"
                         :min-height="initHeight"
                         contain
-                        src= "~@/assets/lingkaran.svg"
+                        src= "~@/assets/Fitur2Buku.svg"
                     ></v-img>
                 </v-col>
                 </v-row>
@@ -65,10 +65,10 @@
                 <v-row align="center">
                     <v-col cols="6">
                         <v-img
-                            width="100%"
+                            width="80%"
                             :min-height="initHeight"
                             contain
-                            src= "~@/assets/lingkaran.svg"
+                            src= "~@/assets/Fitur3Keluarga.svg"
                         ></v-img>
                     </v-col>
                     <v-col cols="6">
@@ -102,11 +102,11 @@
                         width="400"
                         height="400"
                         contain
-                        src= "~@/assets/lingkaran.svg"
+                        src= "~@/assets/Fitur1Gajah.svg"
                     ></v-img>
                 </v-row>
                 <v-row class="justify-center">
-                            <p class="font-weight-bold text-h3">Cerdas Membaca</p>
+                            <p class="font-weight-bold text-h3 text-center">Cerdas Membaca</p>
                         </v-row>
                         <v-row class="justify-center">
                             <p class="text-center">Fitur belajar mengeja, dimulai dari pengenalan alfabet, suku kata, dan kalimat sederhana dengan didukung oeh visual yang menarik dari worksheet yang menyenangkan sebagai langkah awal bagi anak untuk dapat mengakses tingkat literasi lebih lanjut</p>
@@ -126,12 +126,12 @@
                         width="400"
                         height="400"
                         contain
-                        src= "~@/assets/lingkaran.svg"
+                        src= "~@/assets/Fitur2Buku.svg"
                     ></v-img>
                 </v-row>
                     
                         <v-row class="justify-center">
-                            <p class="font-weight-bold text-h3">Cerdas Cendekia</p>
+                            <p class="font-weight-bold text-h3 text-center">Cerdas Cendekia</p>
                         </v-row>
                         <v-row>
                             <p class="text-center">Fitur yang memberi akses anak untuk mengakses berbagai buku yang bisa meningkatkan kecintaan anak terhadap budaya baca, meningkatkan pengetahuan anak, mengasah kemampuan berpikir kritis anak, serta pembelajaran karakter dengan cerita-cerita yang dibuat oleh kurator terpilih dilengkapi dengan adanya voice over cerita dan kuis interaktif yang disesuaikan dengan tingkat kemampuan belajar anak</p>
@@ -151,11 +151,11 @@
                         width="400"
                         height="400"
                         contain
-                        src= "~@/assets/lingkaran.svg"
+                        src= "~@/assets/Fitur3Keluarga.svg"
                     ></v-img>
                 </v-row>
                 <v-row justify="center">
-                    <p class="font-weight-bold text-h3">Orangtua Cerdasia</p>
+                    <p class="font-weight-bold text-h3 text-center">Orangtua Cerdasia</p>
                 </v-row>
                 <v-row>
                     <p class="text-center">Fitur bagi orangtua untuk memantau perkembangan anak berupa data secara akurat dilengkapi dengan artikel edukasi bagi orangtua terkait pendampingan di tiap tahap tumbuh kembang anak sehingga dapat memaksimalkan perkembangan potensi anak melalui keterlibatan orangtua</p>

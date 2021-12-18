@@ -14,7 +14,7 @@
               <v-tab link @click="redirectHome()">Home</v-tab>
               <v-tab link @click="redirectAboutUs()">About Us</v-tab>
               <v-tab link @click="redirectMembership()">Membership</v-tab>
-              <v-tab link @click="redirectBlog()">Blog</v-tab>
+              <!-- <v-tab link @click="redirectBlog()">Blog</v-tab> -->
               <v-tab link @click="redirectContactUs()">Contact Us</v-tab>
             
           </v-tabs>
@@ -41,9 +41,9 @@
                     <v-list-item>
                         <v-list-item-title @click="redirectMembership()">Membership</v-list-item-title>
                     </v-list-item>
-                    <v-list-item>
+                    <!-- <v-list-item>
                         <v-list-item-title @click="redirectBlog()">Blog</v-list-item-title>
-                    </v-list-item>
+                    </v-list-item> -->
                     <v-list-item>
                         <v-list-item-title @click="redirectContactUs()">Contact Us</v-list-item-title>
                     </v-list-item>
