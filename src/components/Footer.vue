@@ -5,59 +5,46 @@
         <v-card flat tile width="100%">
             <v-img
                 class="white--text"
-                height="260"
+                height="320"
                 src="../assets/footer.svg"
                 >
             <v-row class="pa-5">
-                <v-col cols="6">
+                <v-col cols="4">
                     <v-card-text>
-                        <p text class="text-h5">Cerdasia</p>
-                        <!-- <p text class="text-h7">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem</p>
-                        <p text class="text-h7">cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua</p> -->
-                        
+                        <v-img
+                            height="50%"
+                            width="50%"
+                            src="../assets/logoFooter.svg"></v-img>
                     </v-card-text>
+                    <p class="font-weight-light pt-10 pl-2">Unduh Aplikasi di Google Play</p>
+                        <v-img
+                            height="20%"
+                            width="30%"
+                            src="../assets/playstore.svg"></v-img>
                 </v-col>
-                <v-col>
-                    <v-card-text>
-                        <p text class="text-h6">Bantuan & Panduan</p>
-                        <a text class="text-h7 white--text" @click="redirectKebijakanPrivasi()">Kebijakan Privasi</a>
-                    </v-card-text>
-                </v-col>
-                <v-col>
-                    <v-card-text class="pt-8">
-                        <!-- <p text class="text-h7">//alamat</p> -->
-                        <v-row align="center">
-                                <v-icon 
-                                dark
-                                fab
-                                small
-                                color="white">
-                                    mdi-email
-                                </v-icon>
-                            &emsp;
-                            <a class="text-h7 white--text" href="mailto:%20cerdasiateam@gmail.com">cerdasiateam@gmail.com</a>
+                <v-col cols="4" class="pt-8">
+                    <!-- <v-card-text> -->
+                        <v-row class="pt-2 pb-2">
+                        <a text class="text-h7 white--text font-weight-light" @click="redirectHome()">Beranda</a>
                         </v-row>
-                        <v-row align="center" class="pt-5">
-                                <v-icon 
-                                dark
-                                fab
-                                small
-                                color="white">
-                                    mdi-phone
-                                </v-icon>
-                            &emsp;
-                            <a text class="text-h7 white--text" href="https://wa.me/08998067422">+62 8998067422</a>
+                        <v-row class="pb-2">
+                        <a text class="text-h7 white--text font-weight-light" @click="redirectAboutUs()">Tentang Kami</a>
                         </v-row>
-                    </v-card-text>
+                        <!-- <a text class="text-h7 white--text" @click="redirectKebijakanPrivasi()">Blog</a> -->
+                        <v-row class="pb-2">
+                        <a text class="text-h7 white--text font-weight-light" @click="redirectContactUs()">Partnership</a>
+                        </v-row>
+                    <!-- </v-card-text> -->
                 </v-col>
-            </v-row>
-            <v-row align="center" justify="center">
-                            <p text class="text-h7 pt-4">Connect with us</p>
-                            &emsp;
+                <v-col cols="4" class="pt-8">
+                    <a text class="text-h7 white--text font-weight-light" @click="redirectKebijakanPrivasi()">Kebijakan Privasi</a>
+                    
+                    <p text class="text-h7 pt-8 font-weight-light">Terhubung dengan Kami</p>
+                    
+                        <v-row class="pl-3 pt-2">
                             <v-icon 
                                 dark
                                 fab
-                                small
                                 color="white">
                                     mdi-facebook
                                 </v-icon>
@@ -65,7 +52,6 @@
                             <v-icon 
                                 dark
                                 fab
-                                small
                                 color="white">
                                     mdi-linkedin
                                 </v-icon>
@@ -73,14 +59,17 @@
                             <v-icon 
                                 dark
                                 fab
-                                small
                                 color="white">
                                     mdi-instagram
-                                </v-icon>
+                            </v-icon>
                         </v-row>
+                    <!-- </v-row> -->
+                </v-col>
+            </v-row>
+            
             <!-- <v-divider /> -->
-            <v-card-text flat tile width="100%" class="white--text text-center">
-                <strong>Copyright © 2021 Cerdasia. All rights reserved. Powered by YLabs</strong>
+            <v-card-text flat tile width="100%" class="white--text text-right">
+                <p class="font-weight-light">Copyright © 2021 Cerdasia. All rights reserved. Powered by YLabs</p>
             </v-card-text>
             </v-img>
         </v-card>
@@ -97,70 +86,64 @@
                         src="../assets/footer.svg"
                         >
                     <v-row class="mt-2">
-                        <v-col sm="6">
+                        <v-col cols="5">
                             <v-card-text>
-                                <p text class="text-h5">Cerdasia</p>
+                                <v-img
+                                    height="100%"
+                                    width="100%"
+                                    src="../assets/logoFooter.svg"></v-img>
                             </v-card-text>
                         </v-col>
-                        <v-col>
-                            <v-card-text>
-                                <p text class="text-h6">Bantuan & Panduan</p>
-                                <p text class="text-h7" @click="redirectKebijakanPrivasi()">Kebijakan Privasi</p>
-                            </v-card-text>
+                        <v-col cols="3" class="pt-8">
+                            <v-row class="pt-2 pb-2">
+                                <a text class="text-h7 white--text font-weight-light" @click="redirectHome()">Beranda</a>
+                            </v-row>
+                            <v-row class="pb-2">
+                                <a text class="text-h7 white--text font-weight-light" @click="redirectAboutUs()">Tentang Kami</a>
+                            </v-row>
+                                <!-- <a text class="text-h7 white--text" @click="redirectKebijakanPrivasi()">Blog</a> -->
+                            <v-row class="pb-2">
+                                <a text class="text-h7 white--text font-weight-light" @click="redirectContactUs()">Partnership</a>
+                            </v-row>
+                        </v-col>
+                        <v-col cols="4" class="pt-7">
+                            <p text class="text-h7 font-weight-light" @click="redirectKebijakanPrivasi()">Kebijakan Privasi</p>
+                            <p text class="text-h7 font-weight-light">Terhubung Dengan Kami</p>
+                            <v-row class="pt-3 pl-2">
+                                <v-icon 
+                                    dark
+                                    fab
+                                    color="white">
+                                    mdi-facebook
+                                </v-icon>
+                                &emsp;
+                                <v-icon 
+                                    dark
+                                    fab
+                                    color="white">
+                                    mdi-linkedin
+                                </v-icon>
+                                &emsp;
+                                <v-icon 
+                                    dark
+                                    fab
+                                    color="white">
+                                    mdi-instagram
+                                </v-icon>
+                            </v-row>
                         </v-col>
                     </v-row>
-                    <v-row class="pl-7">
-                        <v-icon 
-                            dark
-                            fab
-                            small
-                            color="white">
-                            mdi-email
-                        </v-icon>
-                        &emsp;
-                        <a text class="text-h7 white--text" href="mailto:cerdasiateam@gmail.com">cerdasiateam@gmail.com</a>
+                    <p class="font-weight-light pt-10 pl-2 text-center">Unduh Aplikasi di Google Play</p>
+                    <v-row justify="center" align="center" class="pb-5">    
+                        <v-img
+                            height="50px"
+                            width="20px"
+                            contain
+                            src="../assets/playstore.svg"></v-img>
                     </v-row>
-                    <v-row class="pl-7 pt-3">
-                        <v-icon 
-                            dark
-                            fab
-                            small
-                            color="white">
-                            mdi-phone
-                        </v-icon>
-                        &emsp;
-                        <a text class="text-h7 white--text" href="https://wa.me/08998067422">+62 8998067422</a>
-                    </v-row>
-                    <v-row align="center" justify="center" class="pt-3">
-                        <p text class="text-h7 pt-4">Connect with us</p>
-                        &emsp;
-                        <v-icon 
-                            dark
-                            fab
-                            small
-                            color="white">
-                            mdi-facebook
-                        </v-icon>
-                        &emsp;
-                        <v-icon 
-                            dark
-                            fab
-                            small
-                            color="white">
-                            mdi-linkedin
-                        </v-icon>
-                        &emsp;
-                        <v-icon 
-                            dark
-                            fab
-                            small
-                            color="white">
-                            mdi-instagram
-                        </v-icon>
-                    </v-row>
-            <!-- <v-divider /> -->
-            <v-card-text flat tile width="100%" class="white--text text-right">
-                <strong>Copyright © 2021 Cerdasia. All rights reserved. Powered by YLabs</strong>
+                    
+            <v-card-text flat tile width="100%" class="white--text text-center">
+                <p class="font-weight-light">Copyright © 2021 Cerdasia. All rights reserved. Powered by YLabs</p>
             </v-card-text>
             </v-img>
                 </v-card>
@@ -175,6 +158,30 @@ export default {
   methods: {
     redirectKebijakanPrivasi(){
       this.$router.push('/kebijakanPrivasi')
+      window.scrollTo(0,0)
+    },
+    redirectHome(){
+      this.$router.push('/')
+      window.scrollTo(0,0)
+    },
+    redirectAboutUs(){
+      this.$router.push('/aboutUs')
+      window.scrollTo(0,0)
+    },
+    redirectContactUs(){
+      this.$router.push('/partnership')
+      window.scrollTo(0,0)
+    },
+    redirectLandingPages(){
+      this.$router.push('/landingPages')
+      window.scrollTo(0,0)
+    },
+    redirectMembership(){
+      this.$router.push('/membership')
+      window.scrollTo(0,0)
+    },
+    redirectBlog(){
+      this.$router.push('/blog')
       window.scrollTo(0,0)
     },
   }

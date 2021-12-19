@@ -1,6 +1,7 @@
 <template>
     <v-app-bar app color="white" flat>
-        <p text color="black" class="font-weight-bold text-h4 pt-3">Cerdasia</p>
+        <!-- <p text color="black" class="font-weight-bold text-h4 pt-3">Cerdasia</p> -->
+        <v-img src="~@/assets/logoCerdasia.svg" height="100%" width="10%" contain></v-img>
         <v-spacer />
 
           <v-tabs
@@ -13,18 +14,18 @@
               
               <v-tab link @click="redirectHome()">Home</v-tab>
               <v-tab link @click="redirectAboutUs()">About Us</v-tab>
-              <v-tab link @click="redirectMembership()">Membership</v-tab>
+              <!-- <v-tab link @click="redirectMembership()">Membership</v-tab> -->
               <!-- <v-tab link @click="redirectBlog()">Blog</v-tab> -->
-              <v-tab link @click="redirectContactUs()">Contact Us</v-tab>
+              <v-tab link @click="redirectContactUs()">Partnership</v-tab>
             
           </v-tabs>
             
-            <v-btn
+            <!-- <v-btn
               color= #FF5E3C
               class="white--text hidden-xs-only"
               rounded
               >Get Started
-            </v-btn>
+            </v-btn> -->
 
         <div class="hidden-sm-and-up">
                 <v-menu offset-y>
@@ -38,23 +39,23 @@
                     <v-list-item>
                         <v-list-item-title @click="redirectAboutUs()">About Us</v-list-item-title>
                     </v-list-item>
-                    <v-list-item>
+                    <!-- <v-list-item>
                         <v-list-item-title @click="redirectMembership()">Membership</v-list-item-title>
-                    </v-list-item>
+                    </v-list-item> -->
                     <!-- <v-list-item>
                         <v-list-item-title @click="redirectBlog()">Blog</v-list-item-title>
                     </v-list-item> -->
                     <v-list-item>
                         <v-list-item-title @click="redirectContactUs()">Contact Us</v-list-item-title>
                     </v-list-item>
-                    <v-list-item>
+                    <!-- <v-list-item>
                       <v-btn
                         color= #FF5E3C
                         class="white--text"
                         rounded
                         >Get Started
                       </v-btn>    
-                    </v-list-item>
+                    </v-list-item> -->
                 </v-list>
                 </v-menu>
             </div>
@@ -74,7 +75,7 @@ export default {
       window.scrollTo(0,0)
     },
     redirectContactUs(){
-      this.$router.push('/contactUs')
+      this.$router.push('/partnership')
       window.scrollTo(0,0)
     },
     redirectLandingPages(){
@@ -92,3 +93,4 @@ export default {
 }
 }
 </script>
+
