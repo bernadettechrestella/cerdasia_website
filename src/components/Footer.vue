@@ -10,17 +10,15 @@
                 <v-col cols="6">
                     <v-card-text>
                         <p text class="text-h5">Cerdasia</p>
-                        <p text class="text-h7">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem</p>
-                        <p text class="text-h7">cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua</p>
+                        <!-- <p text class="text-h7">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem</p>
+                        <p text class="text-h7">cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua</p> -->
                         
                     </v-card-text>
                 </v-col>
                 <v-col>
                     <v-card-text>
-                        <p text class="text-h6">Produk</p>
-                        <p text class="text-h7">Produk#1</p>
-                        <p text class="text-h7">Produk#2</p>
-                        <p text class="text-h7">Produk#3</p>
+                        <p text class="text-h6">Bantuan & Panduan</p>
+                        <a text class="text-h7 white--text" @click="redirectKebijakanPrivasi()">Kebijakan Privasi</a>
                     </v-card-text>
                 </v-col>
                 <v-col>
@@ -96,16 +94,14 @@
                 <v-col sm="6">
                     <v-card-text>
                         <p text class="text-h5">Cerdasia</p>
-                        <p text class="text-h7">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem</p>
-                        <p text class="text-h7">cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua</p>
+                        <!-- <p text class="text-h7">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem</p>
+                        <p text class="text-h7">cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua</p> -->
                     </v-card-text>
                 </v-col>
                 <v-col>
                     <v-card-text>
-                        <p text class="text-h6">Produk</p>
-                        <p text class="text-h7">Produk#1</p>
-                        <p text class="text-h7">Produk#2</p>
-                        <p text class="text-h7">Produk#3</p>
+                        <p text class="text-h6">Bantuan & Panduan</p>
+                        <p text class="text-h7" @click="redirectKebijakanPrivasi()">Kebijakan Privasi</p>
                     </v-card-text>
                 </v-col>
                 <v-col>
@@ -175,8 +171,11 @@
 <script>
 export default {
   name: 'Footer',
-  components: {
-    
+  methods: {
+    redirectKebijakanPrivasi(){
+      this.$router.push('/kebijakanPrivasi')
+      window.scrollTo(0,0)
+    },
   }
 }
 </script>
