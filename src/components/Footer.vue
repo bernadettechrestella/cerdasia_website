@@ -85,17 +85,16 @@
                         height="auto"
                         src="../assets/footer.svg"
                         >
-                    <v-row class="mt-2">
-                        <v-col cols="5">
-                            <v-card-text>
+                            <v-row justify="center" class="pl-12 pr-12 ml-12 mr-12">
                                 <v-img
-                                    height="100%"
-                                    width="100%"
+                                    height="130"
+                                    width="70"
+                                    contain
                                     src="../assets/logoFooter.svg"></v-img>
-                            </v-card-text>
-                        </v-col>
-                        <v-col cols="3" class="pt-8">
-                            <v-row class="pt-2 pb-2">
+                            </v-row>
+                    <v-row class="pl-10 pr-10">
+                        <v-col cols="6">
+                            <v-row class="pt-3 pb-2">
                                 <a text class="text-h7 white--text font-weight-light" @click="redirectHome()">Beranda</a>
                             </v-row>
                             <v-row class="pb-2">
@@ -106,7 +105,7 @@
                                 <a text class="text-h7 white--text font-weight-light" @click="redirectContactUs()">Partnership</a>
                             </v-row>
                         </v-col>
-                        <v-col cols="4" class="pt-7">
+                        <v-col cols="6">
                             <p text class="text-h7 font-weight-light" @click="redirectKebijakanPrivasi()">Kebijakan Privasi</p>
                             <p text class="text-h7 font-weight-light">Terhubung Dengan Kami</p>
                             <v-row class="pt-3 pl-2">

@@ -11,51 +11,28 @@
                         contain
                         > -->
                         <v-col>
-                        <v-row>
-                            <v-col cols="2" sm="2">
-                                <p class="font-weight-bold text-h3">Visi</p>
-                            </v-col>
-                            <v-col>
-                                <p>Menjadi sumber peningkatan literasi anak bangsa melalui penyetaraan pelayanan pendidikan dengan memanfaatkan teknologi.</p> 
-                            </v-col>
-                        </v-row>
-                        <v-row>
-                            <v-col cols="2" sm="2">
-                                <p class="font-weight-bold text-h3">Misi</p>
-                            </v-col>
-                            <v-col>
-                                <v-row>
-                                    <v-col cols="1">
-                                        <v-icon>
-                                            mdi-circle-medium
-                                        </v-icon>
-                                    </v-col>
-                                    <v-col>
-                                        <p>Menanamkan rasa cinta baca pada anak melalui fitur yang interaktif dan menyenangkan</p>
-                                    </v-col>
-                                </v-row>
-                                <v-row>
-                                    <v-col cols="1">
-                                        <v-icon>
-                                            mdi-circle-medium
-                                        </v-icon>
-                                    </v-col>
-                                    <v-col>
-                                        <p>Pengembangan fitur yang berfokus pada tumbuh kembang anak berlandaskan literatur</p>
-                                    </v-col>
-                                </v-row>
-                                <v-row>
-                                    <v-col cols="1">
-                                        <v-icon>
-                                            mdi-circle-medium
-                                        </v-icon>
-                                    </v-col>
-                                    <v-col>
-                                        <p>Membangun kolaborasi berkelanjutan dengan berbagai stakeholders guna menjamin kebermanfaatan aplikasi bagi seluruh anak bangsa</p>
-                                    </v-col>
-                                </v-row>
-                            </v-col>
-                        </v-row>
+                            <v-row>
+                                <v-col cols="2" sm="2">
+                                    <p class="font-weight-bold text-h3">Visi</p>
+                                </v-col>
+                                <v-col>
+                                    <p>Menjadi sumber peningkatan literasi anak bangsa melalui penyetaraan pelayanan pendidikan dengan memanfaatkan teknologi.</p> 
+                                </v-col>
+                            </v-row>
+                            <v-row>
+                                <v-col cols="2" sm="2">
+                                    <p class="font-weight-bold text-h3">Misi</p>
+                                </v-col>
+                                <v-col>
+                                    <ul>
+                                    <li><p>Menanamkan rasa cinta baca pada anak melalui fitur yang interaktif dan menyenangkan</p></li>
+                                        
+                                    <li><p>Pengembangan fitur yang berfokus pada tumbuh kembang anak berlandaskan literatur</p></li>
+                                    
+                                    <li><p>Membangun kolaborasi berkelanjutan dengan berbagai stakeholders guna menjamin kebermanfaatan aplikasi bagi seluruh anak bangsa</p></li>
+                                    </ul>
+                                </v-col>
+                            </v-row>
                         </v-col>
                         <!-- </v-img> -->
                     </v-card>
@@ -87,44 +64,21 @@
                             <p class="font-weight-bold text-h4">Visi</p>
                         </v-col>
                         <v-col sm="9" cols="9">
-                            <p>Menjadi sumber peningkatan literasi anak bangsa melalui penyetaraan pelayanan pendidikan dengan memanfaatkan teknologi.</p> 
+                            <p class="text-justify">Menjadi sumber peningkatan literasi anak bangsa melalui penyetaraan pelayanan pendidikan dengan memanfaatkan teknologi.</p> 
                         </v-col>
                     </v-row>
                     <v-row>
                         <v-col sm="3" cols="3">
                             <p class="font-weight-bold text-h4">Misi</p>
                         </v-col>
-                        <v-col sm="9" cols="9">
-                            <v-row>
-                                <v-col cols="1">
-                                    <v-icon>
-                                        mdi-circle-medium
-                                    </v-icon>
-                                </v-col>
-                                <v-col>
-                                    <p>Menanamkan rasa cinta baca pada anak melalui fitur yang interaktif dan menyenangkan</p>
-                                </v-col>
-                            </v-row>
-                            <v-row>
-                                <v-col cols="1">
-                                    <v-icon>
-                                        mdi-circle-medium
-                                    </v-icon>
-                                </v-col>
-                                <v-col>
-                                    <p>Pengembangan fitur yang berfokus pada tumbuh kembang anak berlandaskan literatur</p>
-                                </v-col>
-                            </v-row>
-                            <v-row>
-                                <v-col cols="1">
-                                    <v-icon>
-                                        mdi-circle-medium
-                                    </v-icon>
-                                </v-col>
-                                <v-col>
-                                    <p>Membangun kolaborasi berkelanjutan dengan berbagai stakeholders guna menjamin kebermanfaatan aplikasi bagi seluruh anak bangsa</p>
-                                </v-col>
-                            </v-row>    
+                        <v-col>
+                            <ul>
+                                <li><p class="text-justify">Menanamkan rasa cinta baca pada anak melalui fitur yang interaktif dan menyenangkan</p></li>
+                                        
+                                <li><p class="text-justify">Pengembangan fitur yang berfokus pada tumbuh kembang anak berlandaskan literatur</p></li>
+                                    
+                                <li><p class="text-justify">Membangun kolaborasi berkelanjutan dengan berbagai stakeholders guna menjamin kebermanfaatan aplikasi bagi seluruh anak bangsa</p></li>
+                            </ul>
                         </v-col>
                     </v-row>
                 </v-card>
