@@ -46,7 +46,7 @@
                         <v-list-item-title @click="redirectBlog()">Blog</v-list-item-title>
                     </v-list-item> -->
                     <v-list-item>
-                        <v-list-item-title @click="redirectContactUs()">Contact Us</v-list-item-title>
+                        <v-list-item-title @click="redirectContactUs()">Partnership</v-list-item-title>
                     </v-list-item>
                     <!-- <v-list-item>
                       <v-btn
