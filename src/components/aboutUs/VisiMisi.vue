@@ -62,7 +62,7 @@
                 </v-col>
                 <v-col cols="4">
                     <v-img
-                        src="~@/assets/gajahDuduk2.svg"
+                        src="~@/assets/gajahWisuda.svg"
                         height="100%"
                         width="100%"
                         contain
@@ -75,10 +75,10 @@
         <v-container v-if="$vuetify.breakpoint.smAndDown">
             <v-row  justify="center" class="pb-5">
                 <v-img
-                    max-height="50%"
-                    max-width="50%"
+                    max-height="70%"
+                    max-width="70%"
                     contain
-                    src="~@/assets/gajahAja.svg"
+                    src="~@/assets/gajahWisuda.svg"
                     ></v-img>
                 </v-row>
                 <v-card class="pa-5" flat v-if="$vuetify.breakpoint.smAndDown" color="#FDF9D3" :class="`rounded${'-xl'}`">

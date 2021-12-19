@@ -381,14 +381,14 @@
                     </v-col>
                 </v-row>
                 &emsp;
-                <v-btn
+                <!-- <v-btn
                     outlined
                     block
                     rounded
                     color="#FF5E3C"
                     >
                     Coba Gratis
-                </v-btn>
+                </v-btn> -->
             </v-card>
 
             &emsp;
@@ -477,14 +477,14 @@
                         <caption class="pt-6">/BULAN</caption>
                         </v-row>
                         <p class="text-center">Dibayarkan per bulan sebesar Rp20.000</p>
-                        <v-btn
+                        <!-- <v-btn
                             color= #FF5E3C
                             class="white--text"
                             rounded
                             block
                             >
                             Berlangganan
-                        </v-btn>
+                        </v-btn> -->
                     </v-card>
                 </v-col>
 
@@ -496,14 +496,14 @@
                         <caption class="pt-6">/BULAN</caption>
                         </v-row>
                         <p class="text-center">Dibayarkan di awal sebesar Rp150.000 untuk 6 bulan</p>
-                        <v-btn
+                        <!-- <v-btn
                             color= #FF5E3C
                             class="white--text"
                             rounded
                             block
                             >
                             Berlangganan
-                        </v-btn>
+                        </v-btn> -->
                     </v-card>
                 </v-col>
 
@@ -519,14 +519,14 @@
                         <caption class="pt-6">/BULAN</caption>
                         </v-row>
                         <p class="text-center">Dibayarkan di awal sebesar Rp250.000 untuk 1 tahun</p>
-                        <v-btn
+                        <!-- <v-btn
                             color= #FF5E3C
                             class="white--text"
                             rounded
                             block
                             >
                             Berlangganan
-                        </v-btn>
+                        </v-btn> -->
                     </v-card>
                 </v-col>
             </v-card>
@@ -594,14 +594,14 @@
                         <p>Laporan perkembangan anak tiap minggu</p>
                     </v-col>
                 </v-row>
-                <v-btn
+                <!-- <v-btn
                     outlined
                     block
                     rounded
                     color="#FF5E3C"
                     >
                     Beli Sekarang
-                </v-btn>
+                </v-btn> -->
             </v-card>
         </div>
 
