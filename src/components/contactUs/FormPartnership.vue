@@ -5,6 +5,7 @@
         <v-text-field
             rounded
             outlined
+            v-model="name"
             label="Nama lengkap"
             color="#FF5E3C"
             append-icon="mdi-account"
@@ -12,6 +13,7 @@
         <v-text-field
             rounded
             outlined
+            v-model="email"
             label="E-mail"
             color="#FF5E3C"
             append-icon="mdi-email"
@@ -19,6 +21,7 @@
         <v-textarea
           rounded
           outlined
+          v-model="message"
           label="Pesan"
           color="#FF5E3C"
           append-icon="mdi-square-edit-outline"
@@ -27,6 +30,7 @@
             rounded
             color="#FF5E3C"
             class="white--text"
+            @click="sendToWA()"
             width="300">
             Kirim Pesan
         </v-btn>
@@ -35,6 +39,27 @@
 
 <script>
 export default {
-    name: 'FormPartnership'
+    name: 'FormPartnership',
+    data () {
+        return{
+            name: '',
+            email: '',
+            message: ''
+        }
+    },
+
+    methods: {
+        sendToWA () {
+            window.open(`https://api.whatsapp.com/send?phone=+6281248002829&text=Nama Lengkap : ${this.name}%0AEmail : ${this.email}%0AMessage : ${this.message}`,
+            "_blank")
+            this.reload()
+        },
+
+        reload () {
+            this.email = ''
+            this.name = ''
+            this.message = ''
+        }
+    }
 }
 </script>
