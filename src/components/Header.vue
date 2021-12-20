@@ -12,8 +12,8 @@
           >
             <v-tabs-slider color="white"></v-tabs-slider>
               
-              <v-tab link @click="redirectHome()">Home</v-tab>
-              <v-tab link @click="redirectAboutUs()">About Us</v-tab>
+              <v-tab link @click="redirectHome()">Beranda</v-tab>
+              <v-tab link @click="redirectAboutUs()">Tentang Kami</v-tab>
               <!-- <v-tab link @click="redirectMembership()">Membership</v-tab> -->
               <!-- <v-tab link @click="redirectBlog()">Blog</v-tab> -->
               <v-tab link @click="redirectContactUs()">Partnership</v-tab>
@@ -34,10 +34,10 @@
                 </template>
                 <v-list class="responsiveMenu">
                     <v-list-item>
-                        <v-list-item-title @click="redirectHome()">Home</v-list-item-title>
+                        <v-list-item-title @click="redirectHome()">Beranda</v-list-item-title>
                     </v-list-item>
                     <v-list-item>
-                        <v-list-item-title @click="redirectAboutUs()">About Us</v-list-item-title>
+                        <v-list-item-title @click="redirectAboutUs()">Tentang Kami</v-list-item-title>
                     </v-list-item>
                     <!-- <v-list-item>
                         <v-list-item-title @click="redirectMembership()">Membership</v-list-item-title>

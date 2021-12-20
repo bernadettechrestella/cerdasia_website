@@ -50,7 +50,7 @@ export default {
 
     methods: {
         sendToWA () {
-            window.open(`https://api.whatsapp.com/send?phone=+6281248002829&text=Nama Lengkap : ${this.name}%0AEmail : ${this.email}%0AMessage : ${this.message}`,
+            window.open(`https://api.whatsapp.com/send?phone=+628998067422&text=PARTNERSHIP%0ANama Lengkap : ${this.name}%0AEmail : ${this.email}%0AMessage : ${this.message}`,
             "_blank")
             this.reload()
         },

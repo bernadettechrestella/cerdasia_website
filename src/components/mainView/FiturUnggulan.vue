@@ -21,13 +21,13 @@
                         <v-row>
                             <p>Fitur belajar mengeja, dimulai dari pengenalan alfabet, suku kata, dan kalimat sederhana dengan didukung oeh visual yang menarik dari worksheet yang menyenangkan sebagai langkah awal bagi anak untuk dapat mengakses tingkat literasi lebih lanjut</p>
                         </v-row>
-                        <v-row class="justify-end">
+                        <!-- <v-row class="justify-end">
                             <v-btn
                                 color= #FF5E3C
                                 class="white--text"
                                 >Call To Action
                             </v-btn>
-                        </v-row>
+                        </v-row> -->
                     </v-col>
                 </v-row>
             </v-card>
@@ -41,13 +41,13 @@
                         <v-row >
                             <p>Fitur yang memberi akses anak untuk mengakses berbagai buku yang bisa meningkatkan kecintaan anak terhadap budaya baca, meningkatkan pengetahuan anak, mengasah kemampuan berpikir kritis anak, serta pembelajaran karakter dengan cerita-cerita yang dibuat oleh kurator terpilih dilengkapi dengan adanya voice over cerita dan kuis interaktif yang disesuaikan dengan tingkat kemampuan belajar anak</p>
                         </v-row>
-                        <v-row>
+                        <!-- <v-row>
                             <v-btn
                                 color= #FF5E3C
                                 class="white--text"
                                 >Call To Action
                             </v-btn>
-                        </v-row>
+                        </v-row> -->
                     </v-col>  
 
                 <v-col cols="6" class="pl-5">
@@ -78,13 +78,13 @@
                         <v-row>
                             <p>Fitur bagi orangtua untuk memantau perkembangan anak berupa data secara akurat dilengkapi dengan artikel edukasi bagi orangtua terkait pendampingan di tiap tahap tumbuh kembang anak sehingga dapat memaksimalkan perkembangan potensi anak melalui keterlibatan orangtua</p>
                         </v-row>
-                        <v-row justify="end">
+                        <!-- <v-row justify="end">
                             <v-btn
                                 color= #FF5E3C
                                 class="white--text"
                                 >Call To Action
                             </v-btn>
-                        </v-row>
+                        </v-row> -->
                     </v-col>
                 </v-row>
             </v-card>
@@ -111,13 +111,13 @@
                         <v-row class="justify-center">
                             <p class="text-center">Fitur belajar mengeja, dimulai dari pengenalan alfabet, suku kata, dan kalimat sederhana dengan didukung oeh visual yang menarik dari worksheet yang menyenangkan sebagai langkah awal bagi anak untuk dapat mengakses tingkat literasi lebih lanjut</p>
                         </v-row>
-                        <v-row class="justify-center">
+                        <!-- <v-row class="justify-center">
                             <v-btn
                                 color= #FF5E3C
                                 class="white--text"
                                 >Call To Action
                             </v-btn>
-                        </v-row>
+                        </v-row> -->
             </v-card>
 
             <v-card flat class="pa-5" v-if="$vuetify.breakpoint.smAndDown">
@@ -136,13 +136,13 @@
                         <v-row>
                             <p class="text-center">Fitur yang memberi akses anak untuk mengakses berbagai buku yang bisa meningkatkan kecintaan anak terhadap budaya baca, meningkatkan pengetahuan anak, mengasah kemampuan berpikir kritis anak, serta pembelajaran karakter dengan cerita-cerita yang dibuat oleh kurator terpilih dilengkapi dengan adanya voice over cerita dan kuis interaktif yang disesuaikan dengan tingkat kemampuan belajar anak</p>
                         </v-row>
-                        <v-row class="justify-center">
+                        <!-- <v-row class="justify-center">
                             <v-btn
                                 color= #FF5E3C
                                 class="white--text"
                                 >Call To Action
                             </v-btn>
-                        </v-row>
+                        </v-row> -->
             </v-card>
 
             <v-card flat class="pa-5 mb-8" v-if="$vuetify.breakpoint.smAndDown">
@@ -160,13 +160,13 @@
                 <v-row>
                     <p class="text-center">Fitur bagi orangtua untuk memantau perkembangan anak berupa data secara akurat dilengkapi dengan artikel edukasi bagi orangtua terkait pendampingan di tiap tahap tumbuh kembang anak sehingga dapat memaksimalkan perkembangan potensi anak melalui keterlibatan orangtua</p>
                 </v-row>
-                <v-row justify="center">
+                <!-- <v-row justify="center">
                     <v-btn
                         color= #FF5E3C
                         class="white--text"
                         >Call To Action
                     </v-btn>
-                </v-row>
+                </v-row> -->
             </v-card>
     </v-container>
 </template>
