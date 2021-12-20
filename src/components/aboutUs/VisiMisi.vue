@@ -61,7 +61,7 @@
                 <v-card class="pa-5" flat v-if="$vuetify.breakpoint.smAndDown" color="#FDF9D3" :class="`rounded${'-xl'}`">
                     <v-row>
                         <v-col sm="3" cols="3">
-                            <p class="font-weight-bold text-h4">Visi</p>
+                            <p class="font-weight-bold text-h5">Visi</p>
                         </v-col>
                         <v-col sm="9" cols="9">
                             <p class="text-justify">Menjadi sumber peningkatan literasi anak bangsa melalui penyetaraan pelayanan pendidikan dengan memanfaatkan teknologi.</p> 
@@ -69,7 +69,7 @@
                     </v-row>
                     <v-row>
                         <v-col sm="3" cols="3">
-                            <p class="font-weight-bold text-h4">Misi</p>
+                            <p class="font-weight-bold text-h5">Misi</p>
                         </v-col>
                         <v-col>
                             <ul>
