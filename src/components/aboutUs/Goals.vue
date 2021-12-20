@@ -50,7 +50,7 @@
 
         <v-img v-if="$vuetify.breakpoint.smAndDown"
             src="~@/assets/kuningputih.png"
-            height="300">
+            height="325">
             <v-container>
                 <v-col>
                     <v-card :class="`rounded${'-xl'}`" class="text-center pa-5">
