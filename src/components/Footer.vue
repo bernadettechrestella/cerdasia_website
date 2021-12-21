@@ -51,6 +51,15 @@
                     <p text class="text-h7 pt-5">Terhubung dengan Kami</p>
                     
                         <v-row class="pl-3 pt-2">
+                            <v-btn icon @click="redirectFB()">
+                                    <v-icon 
+                                        dark
+                                        fab
+                                        color="white">
+                                        mdi-facebook
+                                    </v-icon>
+                                </v-btn>
+                            &emsp;
                             <v-btn icon @click="redirectIG()">
                                     <v-icon 
                                         dark
@@ -60,12 +69,12 @@
                                     </v-icon>
                                 </v-btn>
                             &emsp;
-                                <v-btn icon @click="redirectFB()">
+                            <v-btn icon>
                                     <v-icon 
                                         dark
                                         fab
                                         color="white">
-                                        mdi-facebook
+                                        mdi-linkedin
                                     </v-icon>
                                 </v-btn>
                             &emsp;
@@ -127,7 +136,7 @@
                             <v-row class="pb-4">
                                 <a text class="text-h7 white--text" @click="redirectAboutUs()">Tentang Kami</a>
                             </v-row>
-                                <!-- <a text class="text-h7 white--text" @click="redirectKebijakanPrivasi()">Blog</a> -->
+                                <!-- <a text class="text-h7 white--text" @click="redirectBlog()">Blog</a> -->
                             <v-row class="pb-2">
                                 <a text class="text-h7 white--text" @click="redirectContactUs()">Partnership</a>
                             </v-row>
@@ -136,15 +145,6 @@
                             <p text class="text-h7" @click="redirectKebijakanPrivasi()">Kebijakan Privasi</p>
                             <p text class="text-h7">Terhubung Dengan Kami</p>
                             <v-row class="pt-3 pl-3">
-                                <v-btn icon @click="redirectIG()">
-                                    <v-icon 
-                                        dark
-                                        fab
-                                        color="white">
-                                        mdi-instagram
-                                    </v-icon>
-                                </v-btn>
-                            &emsp;
                                 <v-btn icon @click="redirectFB()">
                                     <v-icon 
                                         dark
@@ -154,12 +154,24 @@
                                     </v-icon>
                                 </v-btn>
                                 &emsp;
-                                <!-- <v-icon 
-                                    dark
-                                    fab
-                                    color="white">
-                                    mdi-instagram
-                                </v-icon> -->
+                                <v-btn icon @click="redirectIG()">
+                                    <v-icon 
+                                        dark
+                                        fab
+                                        color="white">
+                                        mdi-instagram
+                                    </v-icon>
+                                </v-btn>
+                            &emsp;
+                                <v-btn icon>
+                                    <v-icon 
+                                        dark
+                                        fab
+                                        color="white">
+                                        mdi-linkedin
+                                    </v-icon>
+                                </v-btn>
+                                &emsp;
                             </v-row>
                         </v-col>
                     </v-row>

@@ -2,7 +2,7 @@
     <div>
         <v-container v-if="$vuetify.breakpoint.mdAndUp">
             <p class="font-weight-bold text-h3 text-center pt-5 pb-5">Fitur di Cerdasia</p>
-            <v-row align="center" class="pt-5 pb-5">
+            <v-row align="center" class="pt-5 pb-5" ref="MembacaRefs">
                 <v-col cols="2">
                     <v-img src="~@/assets/Fitur1Gajah.svg"
                         ></v-img>
@@ -22,7 +22,7 @@
                 <p class="text-justify">Cerdasia sadar bahwa belajar adalah proses yang memerlukan waktu dan komitmen, sehingga kami sangat mengapresiasi usaha yang telah dilakukan oleh anak dengan memberikan Badges sebagai simbol komitmen kami untuk mengapresiasi capaian belajar anak.</p>
             </ol>
             
-            <v-row align="center" class="pt-5 pb-5">
+            <v-row align="center" class="pt-5 pb-5" ref="CendekiaRefs">
                 <v-col cols="2">
                     <v-img src="~@/assets/Fitur2Buku.svg"
                         ></v-img>
@@ -42,7 +42,7 @@
                 <p class="text-justify">Terdapat audiobook untuk usia dini yang masih belajar membaca, serta terdapat kuis dan aktivitas pemicu critical thinking untuk usia lanjut untuk memaksimalkan peningkatan literasi pada anak.</p>
             </ol>
 
-            <v-row align="center" class="pt-5 pb-5">
+            <v-row align="center" class="pt-5 pb-5" ref="CerdasiaRefs">
                 <v-col cols="2">
                     <v-img src= "~@/assets/Fitur3Keluarga.svg"
                         ></v-img>

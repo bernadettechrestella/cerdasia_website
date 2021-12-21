@@ -6,7 +6,8 @@
                 <v-img
                     height="250"
                     width="500"
-                    src="~@/assets/gambarABC.svg"></v-img>
+                    contain
+                    src="~@/assets/BlogItemImage.svg"></v-img>
                 <v-card-title>Cara Mengajar Anak SD</v-card-title>
                 <v-card-subtitle>Edukasi</v-card-subtitle>
             </v-card>
@@ -15,7 +16,8 @@
                 <v-img
                     height="250"
                     width="500"
-                    src="~@/assets/gambarABC.svg"></v-img>
+                    contain
+                    src="~@/assets/BlogItemImage.svg"></v-img>
                 <v-card-title>Cara Mengajar Anak SD</v-card-title>
                 <v-card-subtitle>Edukasi</v-card-subtitle>
             </v-card>
@@ -25,16 +27,18 @@
                 <v-img
                     height="250"
                     width="500"
-                    src="~@/assets/gambarABC.svg"></v-img>
+                    contain
+                    src="~@/assets/BlogItemImage.svg"></v-img>
                 <v-card-title>Cara Mengajar Anak SD</v-card-title>
                 <v-card-subtitle>Edukasi</v-card-subtitle>
             </v-card>
             &emsp;
             <v-card elevation="5">
                 <v-img
+                    contain
                     height="250"
                     width="500"
-                    src="~@/assets/gambarABC.svg"></v-img>
+                    src="~@/assets/BlogItemImage.svg"></v-img>
                 <v-card-title>Cara Mengajar Anak SD</v-card-title>
                 <v-card-subtitle>Edukasi</v-card-subtitle>
             </v-card>
@@ -44,18 +48,20 @@
         <v-row class="justify-center pa-5" v-if="$vuetify.breakpoint.smAndDown">
             <v-card elevation="5">
                 <v-img
+                contain
                     height="250"
                     width="500"
-                    src="~@/assets/gambarABC.svg"></v-img>
+                    src="~@/assets/BlogItemImage.svg"></v-img>
                 <v-card-title>Cara Mengajar Anak SD</v-card-title>
                 <v-card-subtitle>Edukasi</v-card-subtitle>
             </v-card>
             &emsp;
             <v-card elevation="5">
                 <v-img
+                contain
                     height="250"
                     width="500"
-                    src="~@/assets/gambarABC.svg"></v-img>
+                    src="~@/assets/BlogItemImage.svg"></v-img>
                 <v-card-title>Cara Mengajar Anak SD</v-card-title>
                 <v-card-subtitle>Edukasi</v-card-subtitle>
             </v-card>
@@ -64,18 +70,20 @@
         <v-row class="justify-center pl-5 pr-5 pb-12" v-if="$vuetify.breakpoint.smAndDown">
             <v-card elevation="5">
                 <v-img
+                contain
                     height="250"
                     width="500"
-                    src="~@/assets/gambarABC.svg"></v-img>
+                    src="~@/assets/BlogItemImage.svg"></v-img>
                 <v-card-title>Cara Mengajar Anak SD</v-card-title>
                 <v-card-subtitle>Edukasi</v-card-subtitle>
             </v-card>
             &emsp;
             <v-card elevation="5">
                 <v-img
+                contain
                     height="250"
                     width="500"
-                    src="~@/assets/gambarABC.svg"></v-img>
+                    src="~@/assets/BlogItemImage.svg"></v-img>
                 <v-card-title>Cara Mengajar Anak SD</v-card-title>
                 <v-card-subtitle>Edukasi</v-card-subtitle>
             </v-card>

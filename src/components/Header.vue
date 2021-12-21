@@ -66,6 +66,12 @@
 <script>
 export default {
   name: 'Header',
+  data () {
+    return {
+      tab: window.location.href
+    }
+  },
+
   methods: {
     redirectHome(){
       this.$router.push('/')

@@ -23,7 +23,8 @@
                         </v-row>
                         <v-row class="justify-end">
                             <v-btn
-                                color= #FF5E3C
+                                @click="redirectMembaca()"
+                                color= "#FF5E3C"
                                 class="white--text"
                                 >Pelajari Lebih Lanjut
                             </v-btn>
@@ -43,7 +44,8 @@
                         </v-row>
                         <v-row>
                             <v-btn
-                                color= #FF5E3C
+                                @click="redirectCendekia()"
+                                color= "#FF5E3C"
                                 class="white--text"
                                 >Pelajari Lebih Lanjut
                             </v-btn>
@@ -78,19 +80,17 @@
                         <v-row>
                             <p>Fitur bagi orang tua untuk memantau dan mengevaluasi perkembangan anak berupa data akurat. Terdapat artikel edukasi bagi orang tua mengenai pendampingan tumbuh kembang anak di tiap tahapannya, sehingga memaksimalkan potensi perkembangan anak melalui keterlibatan orang tua.</p>    
                         </v-row>
-                        <!-- <v-row justify="end">
+                        <v-row>
                             <v-btn
-                                color= #FF5E3C
+                                @click="redirectCerdasia()"
+                                color= "#FF5E3C"
                                 class="white--text"
-                                >Call To Action
+                                >Pelajari Lebih Lanjut
                             </v-btn>
-                        </v-row> -->
+                        </v-row>
                     </v-col>
                 </v-row>
             </v-card>
-
-
-
 
             <v-card flat class="text-end pa-5" v-if="$vuetify.breakpoint.smAndDown">
                 <v-row class="justify-center">
@@ -177,6 +177,22 @@ export default {
     data () {
         return {
             initHeight: (window.innerHeight)/4
+        }
+    },
+    methods: {
+        redirectMembaca () {
+            this.$router.push('/fitur')
+            window.scrollTo(0, 0)
+        },
+
+        redirectCendekia () {
+            this.$router.push('/fitur')
+            window.scrollTo(0, 500)
+        },
+
+        redirectCerdasia () {
+            this.$router.push('/fitur')
+            window.scrollTo(0, 900)
         }
     }
 }
