@@ -11,7 +11,7 @@ const routes = [
     component: Home,
     children: [
       {
-        path: '/landingpage',
+        path: '/',
         name: 'LandingPage',
         component: () => import('../views/LandingPages.vue')
       },
@@ -57,7 +57,7 @@ const router = new VueRouter({
 
 router.beforeEach((to, from, next) => {
   if (to.name === 'Home') {
-    next('/landingpage')
+    next('LandingPage')
   } else {
     next()
   }
