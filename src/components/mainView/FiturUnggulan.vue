@@ -19,15 +19,15 @@
                             <p class="font-weight-bold text-h3">Cerdas Membaca</p>
                         </v-row>
                         <v-row>
-                            <p>Fitur belajar mengeja, dimulai dari pengenalan alfabet, suku kata, dan kalimat sederhana dengan didukung oeh visual yang menarik dari worksheet yang menyenangkan sebagai langkah awal bagi anak untuk dapat mengakses tingkat literasi lebih lanjut</p>
+                            <p>Fitur belajar mengeja, dimulai dari pengenalan alfabet, suku kata, dan kalimat sederhana, didukung oeh visual yang menarik dari worksheet yang menyenangkan sebagai langkah awal bagi anak untuk dapat mengakses tingkat literasi lebih lanjut</p>
                         </v-row>
-                        <!-- <v-row class="justify-end">
+                        <v-row class="justify-end">
                             <v-btn
                                 color= #FF5E3C
                                 class="white--text"
-                                >Call To Action
+                                >Pelajari Lebih Lanjut
                             </v-btn>
-                        </v-row> -->
+                        </v-row>
                     </v-col>
                 </v-row>
             </v-card>
@@ -39,15 +39,15 @@
                             <p class="font-weight-bold text-h3">Cerdas Cendekia</p>
                         </v-row>
                         <v-row >
-                            <p>Fitur yang memberi akses anak untuk mengakses berbagai buku yang bisa meningkatkan kecintaan anak terhadap budaya baca, meningkatkan pengetahuan anak, mengasah kemampuan berpikir kritis anak, serta pembelajaran karakter dengan cerita-cerita yang dibuat oleh kurator terpilih dilengkapi dengan adanya voice over cerita dan kuis interaktif yang disesuaikan dengan tingkat kemampuan belajar anak</p>
+                            <p>Fitur akses anak terhadap berbagai buku digital yang dilengkapi dengan meningkatkan kecintaan budaya baca, memperluas pengetahuan, mengasah kemampuan berpikir kritis, serta memberikan pembelajaran karakter. Seluruh bacaan buku diformulasikan dengan cerita-cerita yang dibuat oleh kurator terpilih, dilengkapi dengan voice over cerita dan kuis interaktif yang disesuaikan dengan tingkat kemampuan belajar anak.</p>
                         </v-row>
-                        <!-- <v-row>
+                        <v-row>
                             <v-btn
                                 color= #FF5E3C
                                 class="white--text"
-                                >Call To Action
+                                >Pelajari Lebih Lanjut
                             </v-btn>
-                        </v-row> -->
+                        </v-row>
                     </v-col>  
 
                 <v-col cols="6" class="pl-5">
@@ -73,10 +73,10 @@
                     </v-col>
                     <v-col cols="6">
                         <v-row justify="end">
-                            <p class="font-weight-bold text-h3">Orangtua Cerdasia</p>
+                            <p class="font-weight-bold text-h3">Orang Tua Cerdasia</p>
                         </v-row>
                         <v-row>
-                            <p>Fitur bagi orangtua untuk memantau perkembangan anak berupa data secara akurat dilengkapi dengan artikel edukasi bagi orangtua terkait pendampingan di tiap tahap tumbuh kembang anak sehingga dapat memaksimalkan perkembangan potensi anak melalui keterlibatan orangtua</p>
+                            <p>Fitur bagi orang tua untuk memantau dan mengevaluasi perkembangan anak berupa data akurat. Terdapat artikel edukasi bagi orang tua mengenai pendampingan tumbuh kembang anak di tiap tahapannya, sehingga memaksimalkan potensi perkembangan anak melalui keterlibatan orang tua.</p>    
                         </v-row>
                         <!-- <v-row justify="end">
                             <v-btn
@@ -155,7 +155,7 @@
                     ></v-img>
                 </v-row>
                 <v-row justify="center">
-                    <p class="font-weight-bold text-h3 text-center">Orangtua Cerdasia</p>
+                    <p class="font-weight-bold text-h3 text-center">Orang Tua Cerdasia</p>
                 </v-row>
                 <v-row>
                     <p class="text-center">Fitur bagi orangtua untuk memantau perkembangan anak berupa data secara akurat dilengkapi dengan artikel edukasi bagi orangtua terkait pendampingan di tiap tahap tumbuh kembang anak sehingga dapat memaksimalkan perkembangan potensi anak melalui keterlibatan orangtua</p>

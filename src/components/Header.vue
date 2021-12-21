@@ -13,6 +13,7 @@
             <v-tabs-slider color="white"></v-tabs-slider>
               
               <v-tab link @click="redirectHome()">Beranda</v-tab>
+              <v-tab link @click="redirectFitur()">Fitur</v-tab>
               <v-tab link @click="redirectAboutUs()">Tentang Kami</v-tab>
               <!-- <v-tab link @click="redirectMembership()">Membership</v-tab> -->
               <!-- <v-tab link @click="redirectBlog()">Blog</v-tab> -->
@@ -68,6 +69,10 @@ export default {
   methods: {
     redirectHome(){
       this.$router.push('/')
+      window.scrollTo(0,0)
+    },
+    redirectFitur(){
+      this.$router.push('/fitur')
       window.scrollTo(0,0)
     },
     redirectAboutUs(){

@@ -24,6 +24,9 @@
                         <a text class="text-h7 white--text" @click="redirectHome()">Beranda</a>
                         </v-row>
                         <v-row class="pb-4">
+                        <a text class="text-h7 white--text" @click="redirectFitur()">Fitur</a>
+                        </v-row>
+                        <v-row class="pb-4">
                         <a text class="text-h7 white--text" @click="redirectAboutUs()">Tentang Kami</a>
                         </v-row>
                         <!-- <a text class="text-h7 white--text" @click="redirectKebijakanPrivasi()">Blog</a> -->
@@ -119,6 +122,9 @@
                                 <a text class="text-h7 white--text" @click="redirectHome()">Beranda</a>
                             </v-row>
                             <v-row class="pb-4">
+                                <a text class="text-h7 white--text" @click="redirectFitur()">Fitur</a>
+                            </v-row>
+                            <v-row class="pb-4">
                                 <a text class="text-h7 white--text" @click="redirectAboutUs()">Tentang Kami</a>
                             </v-row>
                                 <!-- <a text class="text-h7 white--text" @click="redirectKebijakanPrivasi()">Blog</a> -->
@@ -190,6 +196,10 @@ export default {
     },
     redirectAboutUs(){
       this.$router.push('/aboutUs')
+      window.scrollTo(0,0)
+    },
+    redirectFitur(){
+      this.$router.push('/fitur')
       window.scrollTo(0,0)
     },
     redirectContactUs(){

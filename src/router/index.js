@@ -39,6 +39,11 @@ const routes = [
         path: '/kebijakanPrivasi',
         name: 'KebijakanPrivasi',
         component: () => import('../views/KebijakanPrivasi.vue')
+      },
+      {
+        path: '/fitur',
+        name: 'Fitur',
+        component: () => import('../views/Fitur.vue')
       }
     ]
   }
