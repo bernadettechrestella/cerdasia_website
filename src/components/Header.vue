@@ -1,7 +1,7 @@
 <template>
     <v-app-bar app color="white" flat>
         <!-- <p text color="black" class="font-weight-bold text-h4 pt-3">Cerdasia</p> -->
-        <v-img src="~@/assets/logoCerdasia.svg" height="100%" width="10%" contain></v-img>
+        <v-img src="~@/assets/logoCerdasia.svg" height="80%" width="15%" contain v-on:click="redirectHome()"></v-img>
         <v-spacer />
 
           <v-tabs

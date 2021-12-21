@@ -12,8 +12,8 @@
                     <v-col>
                         <v-row justify="center pb-5 pt-5">
                             <v-img 
-                                height="40"
-                                width="40"
+                                height="55"
+                                width="55"
                                 contain
                                 src="~@/assets/iconAnak.svg"
                             ></v-img>
@@ -24,8 +24,8 @@
                     <v-col>
                         <v-row justify="center pb-5 pt-5">
                             <v-img 
-                                height="40"
-                                width="40"
+                                height="55"
+                                width="55"
                                 contain
                                 src="~@/assets/iconLampu.svg"
                             ></v-img>
@@ -39,8 +39,8 @@
                     <v-col>
                         <v-row justify="center pb-5 pt-5">
                             <v-img 
-                                height="40"
-                                width="40"
+                                height="55"
+                                width="55"
                                 contain
                                 src="~@/assets/iconBuku.svg"
                             ></v-img>
@@ -51,8 +51,8 @@
                     <v-col>
                         <v-row justify="center pb-5 pt-5">
                             <v-img 
-                                height="40"
-                                width="40"
+                                height="55"
+                                width="55"
                                 contain
                                 src="~@/assets/iconHati.svg"
                             ></v-img>
