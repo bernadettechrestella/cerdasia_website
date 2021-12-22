@@ -80,12 +80,24 @@
 
         <div class="pt-5 mt-5 pb-5 mb-5" v-if="$vuetify.breakpoint.smAndDown">
             <p class="font-weight-bold text-h3 pb-5">Testimoni</p>
-            <v-img
+            <v-row>
+                <v-img
                 src="~@/assets/TestiAndy.svg">
-            </v-img>
+                </v-img>
+            </v-row>
             <v-row class="pl-12 pr-12 ml-12 mr-12">
                     <v-img
                         src="~@/assets/AndyZaky.svg">
+                    </v-img>
+            </v-row>
+            <v-row>
+                <v-img
+                    src="~@/assets/TestiNindi.svg">
+                </v-img>
+                </v-row>
+            <v-row class="pl-12 pr-12 ml-12 mr-12">
+                    <v-img
+                        src="~@/assets/FotoNindi.svg">
                     </v-img>
             </v-row>
         </div>
