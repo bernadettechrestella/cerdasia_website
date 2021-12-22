@@ -40,6 +40,9 @@
                     <v-list-item>
                         <v-list-item-title @click="redirectAboutUs()">Tentang Kami</v-list-item-title>
                     </v-list-item>
+                    <v-list-item>
+                        <v-list-item-title @click="redirectFitur()">Fitur</v-list-item-title>
+                    </v-list-item>
                     <!-- <v-list-item>
                         <v-list-item-title @click="redirectMembership()">Membership</v-list-item-title>
                     </v-list-item> -->
